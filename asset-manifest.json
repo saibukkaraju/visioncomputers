@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/visioncomputers/static/css/main.c7770236.css",
+    "main.js": "/visioncomputers/static/js/main.541c777a.js",
+    "static/js/453.a9f64e2d.chunk.js": "/visioncomputers/static/js/453.a9f64e2d.chunk.js",
+    "static/media/pageone.png": "/visioncomputers/static/media/pageone.91765a3a93ffab18f9d9.png",
+    "static/media/pagetwo.png": "/visioncomputers/static/media/pagetwo.6a24bad7223b8901e53e.png",
+    "static/media/trainone.jpeg": "/visioncomputers/static/media/trainone.dc6dd291230e02270ca6.jpeg",
+    "static/media/visionlogo.png": "/visioncomputers/static/media/visionlogo.fc54796dd4e9d976ec7c.png",
+    "static/media/weekend.jpeg": "/visioncomputers/static/media/weekend.3b99f20b886f8e2f7eda.jpeg",
+    "static/media/assignment.jpeg": "/visioncomputers/static/media/assignment.bca0fdcf366fb8c15514.jpeg",
+    "static/media/vision7.jpeg": "/visioncomputers/static/media/vision7.141e34e67a29a9cec738.jpeg",
+    "static/media/vision8.jpeg": "/visioncomputers/static/media/vision8.e5e9223294698850c272.jpeg",
+    "static/media/blurr.jpeg": "/visioncomputers/static/media/blurr.3e8527c16b0c5e0b8b13.jpeg",
+    "static/media/resume.jpeg": "/visioncomputers/static/media/resume.065d98b8a3d89efe1639.jpeg",
+    "static/media/vision4.jpeg": "/visioncomputers/static/media/vision4.bc8a8352fd5cbf57e490.jpeg",
+    "static/media/project.jpeg": "/visioncomputers/static/media/project.9497621fa5138c59c798.jpeg",
+    "static/media/classroom.webp": "/visioncomputers/static/media/classroom.25fcd6eb9b60d51fcc98.webp",
+    "static/media/theory.jpeg": "/visioncomputers/static/media/theory.ae291fe540eebccfcd43.jpeg",
+    "static/media/interview.jpeg": "/visioncomputers/static/media/interview.6ed78fb1c1c9b3302a5d.jpeg",
+    "static/media/classroom1.webp": "/visioncomputers/static/media/classroom1.112fdb8cefe9f4007911.webp",
+    "static/media/material.jpeg": "/visioncomputers/static/media/material.88076a3d2997bad04265.jpeg",
+    "static/media/online.jpeg": "/visioncomputers/static/media/online.015120017207ea735725.jpeg",
+    "index.html": "/visioncomputers/index.html",
+    "main.c7770236.css.map": "/visioncomputers/static/css/main.c7770236.css.map",
+    "main.541c777a.js.map": "/visioncomputers/static/js/main.541c777a.js.map",
+    "453.a9f64e2d.chunk.js.map": "/visioncomputers/static/js/453.a9f64e2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7770236.css",
+    "static/js/main.541c777a.js"
+  ]
+}
