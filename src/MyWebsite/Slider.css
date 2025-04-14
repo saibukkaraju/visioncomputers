@@ -1,0 +1,16 @@
+.slider {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    height: 250px;
+    background: #ddd;
+    padding: 10px;
+  }
+  
+  .slider img {
+    width: 600px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  

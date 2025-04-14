@@ -1,0 +1,20 @@
+.welcome-text-container {
+    width: 100%; /* Take full width of parent */
+    overflow: hidden; /* Hide content that overflows */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .welcome-text-content {
+    display: inline-block; /* Allows width/height adjustments */
+    padding-left: 100%; /* Start off-screen to the right */
+    animation: marquee 15s linear infinite; /* Adjust speed as needed */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%); /* Start at original position */
+    }
+    100% {
+      transform: translateX(-100%); /* Move 100% to the left */
+    }
+  }

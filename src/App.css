@@ -1,0 +1,12 @@
+.scrolling-text p{
+  animation: scrollText 5s linear infinite;
+  white-space: nowrap;
+  padding-left: 100%;
+}
+.p{
+  text-size-adjust: 20px;
+
+}
+.li{
+  padding-top: 15px;
+}

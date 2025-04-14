@@ -1,0 +1,54 @@
+.our-vision-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#f68712;
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin: 50px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.vision-text {
+  flex: 1;
+  padding-right: 20px;
+  min-width: 300px;
+}
+
+.vision-text h2 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.vision-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.vision-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f8b400;
+  border: none;
+  color: #0b1c3f;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vision-image {
+  flex: 1;
+  text-align: center;
+  min-width: 200px;
+
+}
+
+.vision-image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+}

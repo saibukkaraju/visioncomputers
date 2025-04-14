@@ -1,0 +1,19 @@
+.slider-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    width: 100%; /* Width greater than height */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: opacity 10s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  

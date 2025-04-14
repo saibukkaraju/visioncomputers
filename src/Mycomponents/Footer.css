@@ -1,0 +1,48 @@
+
+
+.footer {
+    background-color: #285898;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    margin-top: 15px ;
+  }
+  
+  .footer-section {
+    flex: 1;
+    width: 50%;
+    margin: 10px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-image {
+    width: 100px;       /* Adjust width as needed */
+    height: auto;
+  }
+  
+  .footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff7f27;   /* Orange shade like the site */
+  }
+  
+  .footer-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  

@@ -1,0 +1,41 @@
+.training-section {
+    padding: 50px;
+    text-align: center;
+    background-color:#f68712;
+  }
+  
+  .training-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .training-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    
+  }
+  
+  .training-item {
+    background-color: #fff3e0; /* Or any background color you prefer */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .training-icon {
+    width: 90px; /* Adjust icon size */
+    margin-bottom: 15px;
+  }
+  
+  .training-item h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .training-grid {
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+  }

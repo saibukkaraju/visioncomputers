@@ -1,0 +1,97 @@
+/* Entire container for spacing */
+.training-container {
+  padding: 0;
+}
+
+
+/* Heading Bar */
+.about-heading {
+  height: 90px;
+  background-size: auto;
+  background-position: 60px;
+  background-position-y: 25%;
+  position: relative;
+  
+   margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  margin-top: 15.5px;
+  
+}
+
+.overlay {
+  background-color: rgba(255, 102, 0, 0.7); /* Orange blur overlay */
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.overlay h1 {
+  font-size: 40px;
+  margin-bottom: 7px;
+  margin-top: -22px;
+}
+
+.overlay p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+/* Grid Layout: 3 columns */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 10px;
+  justify-items: center;
+  column-gap: 5px;
+  margin-top: 8%;
+  row-gap: 10%;
+
+}
+
+/* Each Card */
+.service-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  width: 230px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+  transition: box-shadow 0.3s ease;;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(255, 140, 0, 0.5);
+  border: 2px solid orange;
+  background-color: #fff3e0
+}
+
+.service-card:hover img {
+  transform: scale(1.05);
+}
+/* Image Styling */
+.service-image {
+  width: 90%;
+  height: 155px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+/* Course Title */
+.service-title {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}

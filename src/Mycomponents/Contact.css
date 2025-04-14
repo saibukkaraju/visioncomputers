@@ -1,0 +1,105 @@
+.Contact {
+    text-align: center;
+    padding: 10px;
+    background: #ffccbc;
+  }
+  
+  .Contact {
+    position: relative; /* Needed for absolute positioning of overlay and title */
+    width: 100%;
+    height: 10px; /* Adjust height as needed */
+    background-color: #f68712; /* Solid orange background */
+    overflow: hidden; /* Clip image if it overflows */
+  }
+  .contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color:#fff3e0;
+    
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: center;
+    width: 50%;
+    height: 40%;
+  }
+  
+  .mailbox-image {
+    max-width: 75%;
+    height: 40%;
+
+  }
+  .location-image {
+    max-width: 75%;
+    height: 40%;
+    background-color: white;
+
+  }
+  
+  .contact-details {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .contact-details h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-box {
+    display: flex;
+    align-items: center;
+    background-color:white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-icon {
+    width: 50px;
+    margin-right: 15px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+      padding: 30px;
+    }
+  
+    .contact-details {
+      max-width: 100%;
+    }
+  }
+  .about-heading {
+    height: 90px;
+    background-size: auto;
+    background-position: 60px;
+    background-position-y: 25%;
+    position: relative;   
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    margin-top: 10px;
+  }
+  
+  .overlay {
+    background-color: rgba(255, 102, 0, 0.7); /* Orange blur overlay */
+    width: 100%;
+    height: 100%;
+  
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  .overlay h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -22px;
+  }

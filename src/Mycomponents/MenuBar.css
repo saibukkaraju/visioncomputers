@@ -1,0 +1,93 @@
+.menu-bar {
+    /* Light background color */
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .menu-bar ul {
+    list-style: none; /* Remove bullet points */
+    margin-top: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  
+    
+  }
+  
+  .menu-bar li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 30px; /* Add spacing between links */
+    color: #285898;
+    float: right;
+    padding-right: 0;
+  }
+  
+  .menu-bar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #007bff; /* Dark text color */
+    font-weight: bold;
+    padding: 0 15px;
+  }
+  
+  .menu-bar a:hover {
+    color:orange; /* Change color on hover */
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px 20px;
+    height: 20%;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 120px; /* Adjust as needed */
+    margin-right: 10px;
+    width: 180px;
+  }
+  
+  .right-section nav {
+    display: flex;
+  }
+  
+  .right-section nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 15px;
+  }
+  .scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #f8f9fa;
+    padding: 10px  0;
+   height: 33px;
+  margin-bottom: 0;
+  
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .scroll-text {
+    display: inline-block; /* Use inline-block for better control */
+    font-size: 20px;
+    font-weight: bold;
+    color:#007bff;
+    animation: scrollText 10s linear infinite;
+    line-height: 20px;
+     margin-top: 80px;  
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

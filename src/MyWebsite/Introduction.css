@@ -1,0 +1,13 @@
+.introduction {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .introduction h2 {
+    color: #222;
+  }
+  
+  .introduction p {
+    font-size: 18px;
+    color: #555;
+  }

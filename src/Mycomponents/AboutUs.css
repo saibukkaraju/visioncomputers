@@ -1,0 +1,87 @@
+/* Container */
+.about-container {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading Bar */
+.about-heading {
+  height: 90px;
+  background-size: auto;
+  background-position: 60px;
+  background-position-y: 25%;
+  position: relative;
+  
+   margin-top: 15px;
+   background-color: #00f;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  margin-top: 13px;
+  
+}
+
+.overlay {
+  background-color: rgba(255, 102, 0, 0.7); /* Orange blur overlay */
+  width: 100%;
+  height: 100%;
+margin-top: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.overlay h1 {
+  font-size: 40px;
+  margin-bottom: 7px;
+  margin-top: -22px;
+}
+
+.overlay p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+/* Main Content Box */
+.about-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff3e0; /* Light orange background */
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.about-text {
+  flex: 1;
+  padding-right: 30px;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  color: #ff6f00;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.about-img {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.about-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}

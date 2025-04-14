@@ -1,0 +1,31 @@
+.nav-bar {
+    background-color:white; /* Light background color */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .nav-bar ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+  }
+  
+  .nav-bar li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 30px; /* Add spacing between links */
+  }
+  
+  .nav-bar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Dark text color */
+    font-weight: bold;
+    padding: 0 15px;
+  }
+  
+  .nav-bar a:hover {
+    color: #007bff; /* Change color on hover */
+  }
