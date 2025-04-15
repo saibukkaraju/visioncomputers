@@ -20,32 +20,21 @@ import AboutUs from './Mycomponents/AboutUs';
 
 
     
-    
+function App() {  
 
-function App() {
-  return (
-    
-    <Router>
-      
-      <MenuBar/> 
-      
-     
-      
-      
+return (
+  <Router basename="/visioncomputers"> {/* 👈 Important for GitHub Pages */}
+    <MenuBar />
 
-      <Routes>
-      <Route path="/Home" element={<Home/>} />
-        <Route path="/Courses" element={<TrainingServices/>} />
-        <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
-      
-      </Router>
- 
-  );
+    <Routes>
+      <Route path="/" element={<Home />} /> {/* 👈 Default Route */}
+      <Route path="/courses" element={<TrainingServices />} />
+      <Route path="/aboutus" element={<AboutUs />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </Router>
+);
 }
-
-
 
 export default App;
 

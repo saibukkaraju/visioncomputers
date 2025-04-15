@@ -12,7 +12,7 @@ const MenuBar = () => {
           </div>
     <nav className='menu-bar'>
       <ul>
-      <li><Link to="/Home">HOME</Link></li> 
+      <li><Link to="/">HOME</Link></li> 
         <li><Link to="/Courses">COURSES</Link></li>
         <li><Link to="/AboutUs">ABOUTUS</Link></li>
         <li><Link to="/Contact">CONTACT</Link></li>
